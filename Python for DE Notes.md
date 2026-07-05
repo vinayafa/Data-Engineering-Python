@@ -133,6 +133,79 @@ Things to remember:
 
 ---
 
+### Transformations/app.py
+- This file shows string transformation by combining a first name and a last name.
+- It also shows how to join a folder path and file name into one full file path.
+- The examples use `+` to concatenate strings.
+
+Things to remember:
+- String concatenation joins two text values together.
+- Use `+` carefully when combining variables that are already strings.
+- This pattern is useful for building full names, file paths, and other text output.
+- Keep the comments short and clear so the code is easy to revise later.
+
+---
+
+### Transformations/f-string.py
+- This file compares long string concatenation with f-strings.
+- The old style is harder to read because it needs many `+` signs and `str()` conversions.
+- The f-string version is easier to read because variables are placed directly inside `{}`.
+- It also shows that f-strings can evaluate expressions like `{2+3}`.
+- Double braces `{{` and `}}` are used when you want literal curly braces in the output.
+
+Things to remember:
+- Put `f` before the opening quote to create an f-string.
+- Use `{variable}` inside the string to insert values.
+- Use `{expression}` when you want Python to calculate something inside the string.
+- Use double braces when you need actual curly braces printed on screen.
+
+---
+
+### Transformations/split_function.py
+- This file shows how `split()` breaks one string into a list of smaller parts.
+- The first example splits a date and time string by spaces.
+- The second example splits a comma-separated value string into fields.
+- Spaces around values stay if the separator is only a comma.
+
+Things to remember:
+- `split(" ")` divides text wherever there is a space.
+- `split(",")` divides text wherever there is a comma.
+- `split()` returns a list.
+- Extra spaces may remain in the pieces unless you clean them separately.
+
+---
+
+### Transformations/multipleFunction.py
+- This file shows string repetition with the `*` operator.
+- The first example repeats `ha` three times.
+- The other examples repeat `#` and `$` to make simple output patterns.
+
+Things to remember:
+- `"text" * number` repeats the text that many times.
+- This works with any string value.
+- String repetition is useful for separators, headings, and repeated patterns.
+
+---
+
+### Transformations/IndexAndSlicing.py
+- This file shows string indexing with positive and negative positions.
+- `text[0]` gets the first character.
+- `text[-1]` gets the last character.
+- `text[3]` gets the fourth character, which is `h` in `Python`.
+- It also shows string slicing with `date[0:4]`, `date[:4]`, `date[5:7]`, and `date[8:]`.
+
+Things to remember:
+- Indexing starts at `0` in Python.
+- Negative indexes count from the end of the string.
+- You can use positive or negative indexes to get the same character.
+- Make sure the index is inside the string length, or Python will raise an error.
+- Slicing includes the start index but excludes the end index.
+- Leaving out the start index means "start from the beginning."
+- Leaving out the end index means "go until the end."
+- Slicing is useful for pulling out parts of text such as year, month, and day.
+
+---
+
 ## General Python Notes
 
 - Comment your code with `#` to explain what each part does.
