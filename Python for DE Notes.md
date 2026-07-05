@@ -206,6 +206,35 @@ Things to remember:
 
 ---
 
+### Cleaning/strip.py
+- This file shows how to remove extra spaces or characters from the sides of a string.
+- `lstrip()` removes characters from the left side.
+- `rstrip()` removes characters from the right side.
+- `strip()` removes characters from both sides.
+- The file also checks whether a string has extra spaces by comparing the original length with the stripped length.
+
+Things to remember:
+- `strip()` is useful for cleaning user input or messy text data.
+- `strip()` without arguments removes whitespace.
+- `strip("#")` removes `#` symbols from both ends.
+- Comparing `len(text)` and `len(text.strip())` helps detect unwanted spaces.
+- Clean data before saving or processing it further.
+
+---
+
+### Cleaning/caseConversion.py
+- This file shows how `lower()` and `upper()` change the letter case of a string.
+- It also shows how to clean strings with `lower().strip()` before comparing them.
+- The comparison returns `True` when both cleaned strings match.
+
+Things to remember:
+- `lower()` is useful when you want case-insensitive comparison.
+- `upper()` is useful when you want everything in uppercase.
+- Use `strip()` together with case conversion to remove extra spaces before comparing text.
+- Clean and normalize data before checking equality.
+
+---
+
 ## General Python Notes
 
 - Comment your code with `#` to explain what each part does.
