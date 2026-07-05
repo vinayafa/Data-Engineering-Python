@@ -235,6 +235,20 @@ Things to remember:
 
 ---
 
+### Searching/search.py
+- This file shows how to check whether a string starts with, ends with, or contains a value.
+- `startswith()` is used for things like country codes in phone numbers.
+- `endswith()` is used for domains and file extensions.
+- `in` is used to search for text inside strings.
+
+Things to remember:
+- Use `startswith()` when you want to verify the beginning of a string.
+- Use `endswith()` when you want to verify the ending of a string.
+- Use `in` when you only need to know whether a value appears anywhere inside the string.
+- These checks are useful for validating emails, URLs, file names, and phone numbers.
+
+---
+
 ## General Python Notes
 
 - Comment your code with `#` to explain what each part does.
