@@ -22,8 +22,16 @@ print(7 % 2)
 print(2 ** 3)
 
 x = 2
-x+=3
+# Augmented assignment: add and assign in one step (x = x + 3).
+x += 3
 print(x)
 
-x*=2
+# Augmented assignment: multiply and assign in one step (x = x * 2).
+x *= 2
 print(x)
+
+
+# Summary definitions:
+# - `+` addition, `-` subtraction, `*` multiplication, `/` true division (float result)
+# - `//` floor division (rounds down), `%` modulo (remainder), `**` exponentiation (power)
+# - Augmented assignments like `+=`, `-=`, `*=`, `/=` update the variable in-place.

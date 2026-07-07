@@ -254,18 +254,12 @@ Things to remember:
 ---
 
 ### Working with Numbers/Numeric/MathOperator.py
-- This file demonstrates common arithmetic operators: addition, subtraction, multiplication, division, floor-division, modulo, and exponentiation.
 
 Things to remember:
-- `+` addition: sums two numbers.
-- `-` subtraction: subtracts one number from another.
-- `*` multiplication: multiplies two numbers.
-- `/` division: returns a floating-point result.
-- `//` floor division: divides and rounds down to the nearest integer.
-- `%` modulo: returns the remainder after division.
-- `**` exponentiation: raises the left operand to the power of the right operand.
 
-<span style="color:#c7254e">Definition: arithmetic operators perform numeric calculations — use the one that matches the result type you need (float vs integer vs remainder vs power).</span>
+ - Augmented assignment shortcuts: `x += 3` is the same as `x = x + 3`; `x *= 2` is `x = x * 2`.
+ 
+ <span style="color:#c7254e">Definition: arithmetic operators perform numeric calculations — use the one that matches the result type you need (float vs integer vs remainder vs power). Augmented assignment operators update a variable in-place.</span>
 
 
 - Comment your code with `#` to explain what each part does.
