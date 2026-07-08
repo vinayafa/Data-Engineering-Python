@@ -249,19 +249,30 @@ Things to remember:
 
 ---
 
-## General Python Notes
+### Working with Numbers/Numeric/Rounding.py
+- This file shows how to use `abs()`, `round()`, and several math rounding helpers on numbers.
+- `abs()` gives the distance from zero.
+- `round()` shortens a number to a chosen number of decimal places.
+- `math.floor()` rounds down.
+- `math.ceil()` rounds up.
+- `math.trunc()` removes the decimal part without rounding.
+- `int()` also removes the decimal part by converting the value to a whole number.
+- The example shows rounding a price value to different decimal places and comparing several rounding behaviors.
+
+Things to remember:
+- Use `abs()` when you want a positive distance, even if the original number is negative.
+- Use `round(number, 2)` when you want two decimal places, such as for money.
+- Use `round(number)` when you want the nearest whole number.
+- Use `math.floor()` when you need to always round down.
+- Use `math.ceil()` when you need to always round up.
+- Use `math.trunc()` or `int()` when you want to drop the decimal part.
+- `round()` is useful when you want cleaner output for display or reporting.
+
+<span style="color:#c7254e">Definition: `abs()` returns the absolute value, `round()` changes decimal precision, `floor()` rounds down, `ceil()` rounds up, `trunc()` removes decimals, and `int()` converts to a whole number.</span>
 
 ---
 
-### Working with Numbers/Numeric/MathOperator.py
-
-Things to remember:
-
- - Augmented assignment shortcuts: `x += 3` is the same as `x = x + 3`; `x *= 2` is `x = x * 2`.
- 
- <span style="color:#c7254e">Definition: arithmetic operators perform numeric calculations — use the one that matches the result type you need (float vs integer vs remainder vs power). Augmented assignment operators update a variable in-place.</span>
-
-
+## General Python Notes
 - Comment your code with `#` to explain what each part does.
 - Keep variable names meaningful: `price_shirt`, `qty_jeans`, `total_shirt`.
 - Use `print()` for quick debugging and output verification.
