@@ -3,6 +3,35 @@
 This note file summarizes your code lessons from the `Python for DE` folder.
 It is written in the same order as your files and includes the important concepts you should remember.
 
+## Revision Summary — Quick Cheat Sheet
+
+- **Basic tools**: use `print()` to output, `#` for comments, and blank lines to separate ideas.
+- **Variables**: assign with `=`, names should be descriptive; Python is dynamically typed.
+- **Input & types**: `input()` returns `str`; convert with `int()`, `float()` when needed. Check type with `type()`.
+- **String basics**: quotes for strings, escape with `\\`, multiline with `"""`.
+- **Concatenation vs f-strings**: `"a" + "b"` joins strings (need conversions). Prefer `f"{var}"` for readability and expressions.
+- **Indexing & slicing**: `s[0]` first char, `s[-1]` last char, `s[start:end]` includes start, excludes end; omit start/end to go to edges.
+- **Common string methods**:
+  - `len(s)` length, `s.upper()/s.lower()` change case
+  - `s.strip()/lstrip()/rstrip()` remove surrounding whitespace (or characters)
+  - `s.split(sep)` returns list of pieces (watch extra spaces)
+  - `s.find(sub)` returns index or `-1` if missing
+  - `s.startswith()/s.endswith()` boolean checks
+  - `'x' in s` tests substring existence
+- **Validation helpers**: `s.isalpha()` letters only, `s.isnumeric()` digits only.
+- **Cleaning & normalization**: combine `.strip()` + `.lower()` for robust comparisons.
+- **Repetition & formatting**: `"x" * n` repeats strings; use `f-strings` for clarity.
+- **Numbers & conversions**: `int`, `float`, `complex`; `int()` truncates decimals.
+- **Arithmetic operators**:
+  - `+ - * /` (true division returns float)
+  - `//` floor-division, `%` modulo (remainder), `**` exponentiation
+  - augmented assignments: `x += 1`, `x *= 2` (in-place update)
+- **Rounding & math**: `abs()` absolute value; `round(x, n)` precision; `math.floor()/math.ceil()/math.trunc()` and `int()` for different rounding/truncation behaviors.
+- **File/path building**: join strings for paths (consider `os.path.join()` for portability).
+- **Common pitfalls**: mixing strings and numbers without conversion, forgetting `input()` returns `str`, using wrong index ranges causing IndexError, and not trimming user input.
+- **Revision practice**: run each example file, change values, and observe outputs; add short comments in code to capture intent.
+
+
 ---
 
 ## 1. Basics of Python
