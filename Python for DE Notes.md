@@ -316,6 +316,21 @@ Things to remember:
 
 ---
 
+### Working with Numbers/Numeric/Validation.py
+- This file shows how to check whether a float is a whole number and how to test a value’s type.
+- `is_integer()` is used on floats to see whether they have no decimal part.
+- `isinstance(value, type)` checks whether a value belongs to a certain type such as `int` or `float`.
+
+Things to remember:
+- Use `is_integer()` when you already have a float and want to know if it represents a whole number.
+- Use `isinstance()` when you want to confirm a variable’s type.
+- `isinstance(x, int)` and `isinstance(x, float)` return boolean values.
+- These checks are useful when validating numeric data before calculations.
+
+<span style="color:#c7254e">Definition: `is_integer()` tells you if a float is a whole number, and `isinstance()` checks whether a value is an instance of a given type.</span>
+
+---
+
 ## General Python Notes
 - Comment your code with `#` to explain what each part does.
 - Keep variable names meaningful: `price_shirt`, `qty_jeans`, `total_shirt`.
