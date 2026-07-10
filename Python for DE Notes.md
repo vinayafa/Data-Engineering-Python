@@ -301,6 +301,21 @@ Things to remember:
 
 ---
 
+### Working with Numbers/Numeric/Random.py
+- This file shows how to use the `random` module to generate random values.
+- `random.random()` returns a floating-point number between `0.0` and `1.0`.
+- `random.randint(1, 6)` returns a random whole number between 1 and 6, including both ends.
+
+Things to remember:
+- Use `random.random()` when you need a random decimal value.
+- Use `random.randint(a, b)` when you need a random integer in a range.
+- The `random` module is useful for games, testing, sampling, and probability-based logic.
+- `randint()` includes both the starting and ending numbers.
+
+<span style="color:#c7254e">Definition: the `random` module generates random values; `random()` gives a float from 0.0 to 1.0, and `randint()` gives a random integer in a chosen range.</span>
+
+---
+
 ## General Python Notes
 - Comment your code with `#` to explain what each part does.
 - Keep variable names meaningful: `price_shirt`, `qty_jeans`, `total_shirt`.
